@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:paddingVertical">5sp</item>
+        <item name="android:paddingRight">2sp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Col2" parent="TextStyle">
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_width">75dp</item>
+        <item name="android:paddingRight">0sp</item>
+        <item name="android:paddingLeft">4sp</item>
+    </style>
+
+    <style name="MyEditText" parent="TextStyle">
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingRight">0sp</item>
+        <item name="android:paddingLeft">4sp</item>
+        <item name="android:hint">Enter Amount</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TextStyle2" parent="TextStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_width">195dp</item>
+    </style>
+
+    <style name="TextStyle3" parent="TextStyle2">
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingRight">0sp</item>
+        <item name="android:paddingLeft">4sp</item>
+    </style>
+</resources>

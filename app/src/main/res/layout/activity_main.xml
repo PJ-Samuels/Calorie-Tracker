@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073">
+
+        <TextView
+            android:id="@+id/foodType1"
+            style="@style/TextStyle"
+            android:text="@string/chicken"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/type1Calorie"
+            style="@style/Col2"
+            android:text="@string/chickenc"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <EditText
+            android:id="@+id/type1Amount"
+            style="@style/MyEditText"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@+id/foodType2"
+            style="@style/TextStyle"
+            android:text="@string/pasta"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/type2Calorie"
+            style="@style/Col2"
+            android:text="@string/pastac"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <EditText
+            android:id="@+id/type2Amount"
+            style="@style/MyEditText"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/foodType3"
+            style="@style/TextStyle"
+            android:text="@string/rice"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/type3Calorie"
+            style="@style/Col2"
+            android:text="@string/ricec"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <EditText
+            android:id="@+id/type3Amount"
+            style="@style/MyEditText"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <TextView
+            android:id="@+id/foodType4"
+            style="@style/TextStyle"
+            android:text="@string/milk"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/type4Calorie"
+            style="@style/Col2"
+            android:text="@string/milkc"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <EditText
+            android:id="@+id/type4Amount"
+            style="@style/MyEditText"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/FoodType5"
+            style="@style/TextStyle"
+            android:text="@string/oats"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <TextView
+            android:id="@+id/type5Calorie"
+            style="@style/Col2"
+            android:text="@string/oatsc"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <EditText
+            android:id="@+id/type5Amount"
+            style="@style/MyEditText"
+            app:layout_column="2"
+            app:layout_row="4" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/totalText"
+        style="@style/TextStyle2"
+        android:text="@string/amountText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/totalCalories"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/totalCalories"
+        style="@style/TextStyle3"
+        android:text="@string/amountText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

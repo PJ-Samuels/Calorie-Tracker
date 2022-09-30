@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Calorie_Calculator2</string>
+
+    <string name="chicken">10g Chicken:</string>
+    <string name="pasta">10g Pasta:</string>
+    <string name="rice">10g White Rice:</string>
+    <string name="milk">10ml Whole Milk:</string>
+    <string name="oats">10g Oats:</string>
+
+    <string name="chickenc">20Cal</string>
+    <string name="pastac">16Cal</string>
+    <string name="ricec">13Cal</string>
+    <string name="milkc">6Cal</string>
+    <string name="oatsc">39Cal</string>
+
+    <string name="amountText">Total amount:</string>
+</resources>
